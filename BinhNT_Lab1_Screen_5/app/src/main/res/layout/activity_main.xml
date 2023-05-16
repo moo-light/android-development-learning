@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".MainActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/insta_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="80dp"
+            android:baselineAlignBottom="false"
+            android:src="@drawable/instagram"
+            app:flow_horizontalAlign="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <RelativeLayout
+        android:id="@+id/body"
+        android:layout_below="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        >
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="16dp"
+            android:hint="Username"
+            android:paddingLeft="10dp"
+            android:textColorHint="#FFFFFF"
+            android:textColor="#FFFFFF"
+            android:background="#20FFFFFF"
+            android:alpha="0.5"
+            android:textStyle="bold"
+            android:textSize="16dp"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="16dp"
+            android:layout_below="@id/username"
+            android:hint="Password"
+            android:paddingLeft="10dp"
+            android:textColorHint="#FFFFFF"
+            android:textColor="#FFFFFF"
+            android:background="#20FFFFFF"
+            android:alpha="0.5"
+            android:textStyle="bold"
+            android:textSize="16dp"/>
+
+        <Button
+            android:id="@+id/button_signup"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/password"
+            android:textAllCaps="false"
+            android:layout_marginTop="28dp"
+            android:alpha="0.35"
+            android:background="@drawable/instagram_transparent_button"
+            android:text="Log In"
+            android:textColor="#FFFFFF"
+            android:textSize="16dp" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/body2"
+
+        android:layout_below="@id/body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/body2_forgot_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:id="@+id/forgot_pass1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alpha="0.5"
+                android:text="Forgot your sign in details?"
+                android:textColor="#FFFFFF"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/forgot_pass2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Get help signing in"
+                android:textColor="#FFFFFF"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/forgot_pass1"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <RelativeLayout
+            android:id="@+id/body2_body"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/body2_forgot_pass"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/body2_or_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/body2_or_2"
+                android:text="─────────────────"
+                android:textAlignment="center"
+                android:textColor="#55FFFFFF" />
+
+            <TextView
+                android:id="@+id/body2_or_2"
+                android:layout_width="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content"
+                android:text=" OR "
+                android:textAlignment="center"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/body2_or_3"
+                android:layout_toRightOf="@id/body2_or_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="──────────────────"
+                android:layout_alignParentTop="true"
+
+                android:textAlignment="center"
+                android:textColor="#55FFFFFF" />
+    </RelativeLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/body2_end"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/body2_body"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/fb_icon"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/fb_icon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/fb_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Log in With Facebook"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/fb_icon"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/footer_background">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            >
+
+            <TextView
+                android:id="@+id/footer_tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_toEndOf="@+id/footer_tv2"
+                android:alpha="0.5"
+                android:text="Don't have an account? "
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+
+                android:textSize="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/footer_tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="Sign Up."
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/footer_tv1"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
