@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1000" height="1000" viewBox="0 0 1000 1000" xml:space="preserve">
+<desc>Created with Fabric.js 3.5.0</desc>
+<defs>
+</defs>
+<rect x="0" y="0" width="100%" height="100%" fill="rgba(255,255,255,0)"/>
+<g transform="matrix(31.25 0 0 31.25 500 500)" id="71265">
+<g style="" vector-effect="non-scaling-stroke">
+		<g transform="matrix(1 0 0 1 0 0)" id="Layer_1">
+<circle style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(255,255,255); fill-rule: evenodd; opacity: 1;" cx="0" cy="0" r="16"/>
+</g>
+		<g transform="matrix(1 0 0 1 4 2.5)" id="f_2_">
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(59,89,152); fill-rule: nonzero; opacity: 1;" transform=" translate(-20, -18.5)" d="M 22 32 V 20 h 4 l 1 -5 h -5 v -2 c 0 -2 1.002 -3 3 -3 h 2 V 5 c -1 0 -2.24 0 -4 0 c -3.675 0 -6 2.881 -6 7 v 3 h -4 v 5 h 4 v 12 H 22 z" stroke-linecap="round"/>
+</g>
+</g>
+</g>
+<g transform="matrix(7.8125 0 0 7.8125 500 500)" id="911619">
+<g style="" vector-effect="non-scaling-stroke">
+		<g transform="matrix(1 0 0 1 0 0)" id="Facebook_1_">
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: none; fill-rule: nonzero; opacity: 1;" x="-64" y="-64" rx="0" ry="0" width="128" height="128"/>
+</g>
+		<g transform="matrix(1 0 0 1 0 0)" id="Facebook">
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(255,255,255); fill-rule: evenodd; opacity: 1;" transform=" translate(-64, -64)" d="M 68.369 128 H 7.065 C 3.162 128 0 124.836 0 120.935 V 7.065 C 0 3.162 3.162 0 7.065 0 h 113.871 C 124.837 0 128 3.162 128 7.065 v 113.87 c 0 3.902 -3.163 7.065 -7.064 7.065 H 88.318 V 78.431 h 16.638 l 2.491 -19.318 H 88.318 V 46.78 c 0 -5.593 1.553 -9.404 9.573 -9.404 l 10.229 -0.004 V 20.094 c -1.769 -0.235 -7.841 -0.761 -14.906 -0.761 c -14.749 0 -24.846 9.003 -24.846 25.535 v 14.246 H 51.688 v 19.318 h 16.681 V 128 z" stroke-linecap="round"/>
+</g>
+</g>
+</g>
+</svg>
