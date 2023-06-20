@@ -13,10 +13,10 @@
         android:theme="@style/Theme.BinhNT_Lab2_Screen_3"
         tools:targetApi="31">
         <activity
-            android:name=".SignUpActivity"
+            android:name=".SignUpActivityLab2Screen3"
             android:exported="false" />
         <activity
-            android:name=".SignInActivity"
+            android:name=".SignInActivityLab2Screen3"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,7 +24,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".MainActivityLab2Screen3"
             android:exported="false">
 
         </activity>

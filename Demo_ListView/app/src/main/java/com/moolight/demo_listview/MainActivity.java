@@ -20,8 +20,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         lvList = findViewById(R.id.lvList);
-        arrayList = new ArrayList<>();
 
+        arrayList = new ArrayList<>();
         arrayList.add("PHP");
         arrayList.add("Python");
         arrayList.add("Java");
@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         arrayList.add("C++");
 
         ArrayAdapter arrayAdapter = new ArrayAdapter(MainActivity.this,
-                android.R.layout.simple_list_item_1);
+                android.R.layout.simple_list_item_1,arrayList);
 
         lvList.setAdapter(arrayAdapter);
         lvList.setOnItemClickListener(new AdapterView.OnItemClickListener() {

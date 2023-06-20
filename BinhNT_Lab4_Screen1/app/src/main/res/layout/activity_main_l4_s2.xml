@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:weightSum="50"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivityL4S2">
+
+    <Button
+        android:id="@+id/btnString"
+        android:text="Passing String"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:id="@+id/btnNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Passing Number"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:id="@+id/btnArray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Passing Array"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:id="@+id/btnObject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Passing Object"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:id="@+id/btnBundle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Passing Bundle"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        />
+</LinearLayout>
