@@ -48,7 +48,6 @@ public class MainActivityLab3 extends AppCompatActivity implements View.OnClickL
             finish();
         }
     }
-
     private void ShowIntent(Class activity) {
         Intent intent = new Intent(this, activity);
         startActivity(intent);
