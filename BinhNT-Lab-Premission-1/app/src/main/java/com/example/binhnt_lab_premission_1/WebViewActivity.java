@@ -16,7 +16,7 @@ public class WebViewActivity extends AppCompatActivity {
         webView.getSettings().setJavaScriptEnabled(true); // Enable JavaScript (optional)
         webView.setWebViewClient(new WebViewClient()); // To stay within the app
 
-        String url = "http://androidprmproject2.somee.com/Swagger/index.html"; // Replace with your desired URL
+        String url = "https://lms-hcmuni.fpt.edu.vn/course/view.php?id=1190"; // Replace with your desired URL
         webView.loadUrl(url);
     }
 }
